@@ -1,0 +1,44 @@
+{
+  "name": "melisplatform/melis-tool-creator-symfony",
+  "description": "Melis Tool Creator Symfony",
+  "type": "melisplatform-module",
+  "license": "OSL-3.0",
+  "homepage": "https://github.com/melisplatform/melis-tool-creator-symfony",
+  "support": {
+    "email": "contact@melistechnology.com",
+    "source": "https://github.com/melisplatform/melis-tool-creator-symfony",
+    "issues": "https://github.com/melisplatform/melis-tool-creator-symfony/issues",
+    "docs": "https://www.melistechnology.com/melistechnology/resources/download-documentation/id/17#documentation"
+  },
+  "authors": [
+    {
+      "name": "Melis Technology",
+      "email": "contact@melistechnology.com",
+      "homepage": "https://www.melistechnology.com",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [
+    "cms",
+    "melis",
+    "zf2",
+    "module"
+  ],
+  "extra": {
+    "module-name": "MelisToolCreatorSymfony",
+    "dbdeploy": false,
+    "melis-site": false,
+    "melis-module-category": "core"
+  },
+  "require": {
+    "melisplatform/melis-tool-creator": "*",
+    "melisplatform/melis-platform-frameworks": "*",
+    "melisplatform/melis-platform-framework-symfony": "*",
+    "melisplatform/melis-platform-framework-symfony-tool-creator": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MelisToolCreatorSymfony\\": "src/"
+    }
+  }
+}
