@@ -10,5 +10,10 @@
 return [
     'tool-creator-third-party-frameworks' => [
         'symfony'
+    ],
+    'third-party-framework' => [
+        'index-path' => [
+            '/Symfony/public/index.php'
+        ]
     ]
 ];
