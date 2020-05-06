@@ -31,10 +31,10 @@
     "melis-module-category": "core"
   },
   "require": {
-    "melisplatform/melis-tool-creator": "^3.2",
-    "melisplatform/melis-platform-frameworks": "^3.2",
-    "melisplatform/melis-platform-framework-symfony": "^3.2",
-    "melisplatform/melis-platform-framework-symfony-tool-creator": "^3.2"
+    "melisplatform/melis-tool-creator": "*",
+    "melisplatform/melis-platform-frameworks": "*",
+    "melisplatform/melis-platform-framework-symfony": "*",
+    "melisplatform/melis-platform-framework-symfony-tool-creator": "*"
   },
   "autoload": {
     "psr-4": {
