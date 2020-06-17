@@ -1,0 +1,18 @@
+<melis-tool-creator-symfony>
+	<package_info>
+		<mp_title>Melis Tool Creator Symfony</mp_title>
+		<mp_subtitle>An extension to the Melis Tool Creator that allows you to create new symfony modules easily</mp_subtitle>
+		<mp_description>
+			<![CDATA[<p>This module handles the Tool Creator configuration to activate Symfony option on the selection in the Tool Creator</p>]]>
+		</mp_description>
+		<mp_maintainers>melisplatform</mp_maintainers>
+		<mp_group>Melis Core</mp_group>
+	</package_info>
+	<package_images>
+		<img_1>
+			<mpi_image_title>MelisToolCreator Laravel</mpi_image_title>
+			<mpi_image_file>symfony.jpg</mpi_image_file>
+			<mpi_image_main>1</mpi_image_main>
+		</img_1>
+	</package_images>
+</melis-tool-creator-symfony>
